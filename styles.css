@@ -48,7 +48,8 @@ h1 {
   border-radius: var(--border-radius);
   box-shadow: 0 2px 10px var(--shadow);
   width: 100%;
-  max-width: 60vw;
+  max-width: 30vw;
+  min-width: 400px;
   height: auto;
 }
 
@@ -113,21 +114,11 @@ button:hover {
   text-align: center;
 }
 
-/* Responsividade */
-@media (max-width: 800px) {
-  h1 {
-    font-size: 1.2rem;
-  }
 
-  .container {
-    padding: 10px;
-    max-width: 90vw;
-  }
-}
 
 /* Estilização do rodapé */
 footer {
-  position: fixed;
+  margin-top: 20px;
   bottom: 10px;
   width: 100%;
   text-align: center;
@@ -199,4 +190,22 @@ footer span {
 
 .result-item:hover {
   background-color: #f1f1f1;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+
+  body {
+    padding: 5%;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+  }
+
+  .container {
+    padding: 10px;
+    max-width: 90vw;
+    min-width: 100%;
+  }
 }
