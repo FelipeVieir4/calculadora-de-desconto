@@ -146,6 +146,11 @@ footer a:hover {
   text-decoration: underline;
 }
 
+footer span {
+  margin: 0 5px;
+  font-size: smaller;
+}
+
 /* Resultados */
 .results {
   display: flex;
